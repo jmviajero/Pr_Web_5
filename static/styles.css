@@ -1,0 +1,167 @@
+.fondo {
+  background-color: white; 
+  border-radius: 10px;
+  border: solid;
+  position:absolute;
+  border-color: black;
+  border-width: 3px;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 98%;
+  z-index: 1; 
+  margin: 5px;
+}
+
+.fondo2 {
+  background-color: rgb(50, 50, 50);
+  opacity: 0.6; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; 
+}
+
+.tarea {
+  margin-top: 8%; 
+  z-index: 3; 
+  margin-left: 600px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: solid;
+  position: relative;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 10px;
+  height: 40%;
+  justify-content: space-around;
+  
+  input {
+    font-family: fantasy;
+    font-size: 20px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  select {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 70px;
+  }
+
+  button {
+    text-align: center;
+    background-color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 70px;
+  }
+}
+
+
+.botoncrear{
+  margin-left: 1450px;
+  margin-top: 20px;
+  background-color: white;
+  font-family: fantasy;
+  font-size: 20px;
+  width: 9%;
+  height: 5%;
+  z-index: 1; 
+}
+
+.crearceldas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1; 
+}
+
+.lista {
+  height: 600px;
+  width: 250px;
+  border: solid;
+  border-color: black;
+  border-width: 3px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+  box-sizing: border-box; 
+  align-items: center;
+}
+
+.cont {
+  margin-bottom: 10px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  width: calc(100% - 20px); 
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  border-width: 3px;
+  background-color: bisque;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.cont h1 {
+  margin-top: 5px;
+}
+
+.cont p {
+  font-size: 20px;
+}
+
+
+
+
+.tarea2 { 
+  z-index: 3; 
+  margin-left: 1120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: solid;
+  position: relative;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 10px;
+  height: 95vh;
+  padding: 10px;
+  
+  input {
+    font-family: fantasy;
+    font-size: 20px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  select {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 70px;
+  }
+
+  button {
+    margin-top: 95%;
+    text-align: center;
+    background-color: white;
+    font-family: fantasy;
+    font-size: 20px;
+    height: 70px;
+  }
+}
