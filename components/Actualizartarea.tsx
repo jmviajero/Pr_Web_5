@@ -22,7 +22,7 @@ export const Actualizartarea : FunctionComponent<Señales> = ({verdad, to_do, in
     const [v, setv] = useState<boolean>(false)
     const [tar2, settar] = useState<tarea>({
         name: tar.value.name,
-        estado: Estado.TO_DO
+        estado: tar.value.estado
     })
 
     
